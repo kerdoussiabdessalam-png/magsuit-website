@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    color: #111;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background: #111;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 80px;
+}
+
+button {
+    background: black;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #333;
+}
