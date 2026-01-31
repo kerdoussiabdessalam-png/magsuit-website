@@ -4,12 +4,32 @@
   box-sizing: border-box;
 }
 
-body {
-  min-height: 100vh;
-  background-image: url("magsuithero.png");
+body, html {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("images/magsuithero.png");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
+  text-align: center;
+  background-color: #111;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  opacity: 0.85;
 }
